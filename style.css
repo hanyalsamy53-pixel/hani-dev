@@ -403,3 +403,11 @@ input[type="range"]{width:150px;accent-color:var(--accent)}
   .two{grid-template-columns:1fr}
   .row{flex-wrap:wrap}
 }
+/* ---------- إصلاح عرض الصفحات على الجوال ---------- */
+.main,.content,.page{min-width:0;max-width:100%}
+.chat-layout>*,.notes-layout>*{min-width:0}
+.chat-window,.chat-list,.notes-side,.note-editor{min-width:0;max-width:100%}
+.msg{min-width:0}
+.bubble{min-width:0;max-width:100%}
+.composer input{min-width:0}
+.chat-item .t,.note-item .t{min-width:0}
